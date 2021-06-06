@@ -1,0 +1,38 @@
+@import '../../../static/css/color.scss';
+
+.p-verification {
+  .info {
+    padding: 60px 60px 40px 60px;
+    font-size: 28px;
+    line-height: 50px;
+    color: #101010;
+  }
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .input {
+      height: 80px;
+      width: 420px;
+      border: 1px solid #bbbbbb;
+      border-radius: 80px 0 0 80px;
+      font-size: 28px;
+      padding-left: 50px;
+      box-sizing: border-box;
+    }
+    .btn-code {
+      background: #ffffff;
+      color: $red;
+      border: 1px solid $red;
+      width: 200px;
+      margin-left: 10px;
+    }
+  }
+  .btn-sub {
+    width: 632px;
+    margin: 80px auto;
+  }
+  .blue{
+    color: #4EA1E3;
+  }
+}

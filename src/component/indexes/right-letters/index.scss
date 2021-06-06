@@ -1,0 +1,14 @@
+.c-r-letters {
+  position: fixed;
+  right: 0;
+  top: 15%;
+  z-index: 1;
+  width: 80px;
+  .r-item {
+    height: 39px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #FF6143;
+  }
+}

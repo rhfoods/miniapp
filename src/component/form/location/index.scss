@@ -1,0 +1,27 @@
+@import '../../../static/css/size.scss';
+
+.c-location {
+  padding: 0 30px;
+  font-size: 30px;
+  color: #101010;
+  .address {
+    min-height: $form-item-h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 26px;
+    padding-bottom: 14px;
+    box-sizing: border-box;
+    .text {
+      padding-right: 30px;
+      margin-left: 0;
+    }
+    .holder {
+      color: #535A60;
+    }
+  }
+  Input {
+    display: none;
+  }
+}

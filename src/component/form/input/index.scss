@@ -1,0 +1,51 @@
+@import '../../../static/css/size.scss';
+
+.c-input {
+  padding: 0 30px;
+  font-size: 30px;
+  color: #000000;
+  background-color: #ffffff;
+  .label {
+    height: $form-item-h;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 28px;
+    color: #61696F;
+  }
+  .down {
+    height: $form-item-h;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 1px solid #f0f0f0;
+    .left {
+      flex: auto;
+      .input {
+        height: $form-item-h;
+        line-height: $form-item-h;
+        font-size: 28px;
+      }
+      .placeholder {
+        color: #bbbbbb;
+      }
+    }
+    .right {
+      flex: none;
+      padding-left: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .unit {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .none {
+    display: none;
+    opacity: 0;
+  }
+}

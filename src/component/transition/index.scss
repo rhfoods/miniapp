@@ -1,0 +1,15 @@
+.c-transition {
+  overflow: hidden;
+  &.step01 {
+    opacity: 1;
+    display: block;
+  }
+  &.step02 {
+    opacity: 0.1;
+    display: block;
+  }
+  &.step03 {
+    opacity: 0.1;
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.bubble {
+  padding: 0px 30px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  border-radius: 64px;
+  font-size: 24px;
+  .txt {
+    margin-right: 16px;
+  }
+  .cover {
+    // background-color: aqua;
+    // opacity: .3;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    z-index: 100;
+  }
+  .down {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 60px;
+  }
+  .up {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 200px;
+  }
+}

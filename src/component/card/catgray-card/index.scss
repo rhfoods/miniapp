@@ -1,0 +1,33 @@
+$h: 160px;
+
+.c-choose-catgray-card {
+  color: #101010;
+  width: 710px;
+  height: $h;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 30px;
+  box-sizing: border-box;
+  .layout {
+    .left {
+      padding-top: 30px;
+      padding-left: 30px;
+    }
+    .right {
+      height: $h;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  .name {
+    margin-bottom: 20px;
+  }
+  .count {
+    font-size: 24px;
+    color: #888888;
+    .txt {
+      margin-left: 10px;
+    }
+  }
+}

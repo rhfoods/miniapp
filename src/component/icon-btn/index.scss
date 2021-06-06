@@ -1,0 +1,14 @@
+.c-icon-btn {
+  width: 216px;
+  height: 66px;
+  border-radius: 66px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  margin-right: 20px;
+  .text {
+    margin-left: 10px;
+  }
+}

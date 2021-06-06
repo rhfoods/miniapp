@@ -1,0 +1,49 @@
+.c-detail-tabbar {
+  width: 100vw;
+  height: 116px;
+  border-top: 1px solid #f7f7f7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  &.heighter {
+    padding-bottom: 20px;
+  }
+  .at-badge__num {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    color: #353535;
+    transform: translate(28px, 14px);
+    right: auto;
+    left: 20px;
+  }
+  .circle {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #ff4430, #ff9473);
+    box-shadow: 0px 2px 3px 0px #E82D2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    .user-btn {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .icon-item {
+    position: relative;
+  }
+  .user-btn {
+    width: 200%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,16 @@
+.p-msg-list {
+  .card {
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  // 我是有底线的
+  .divider {
+    width: 600px;
+    margin: 0 auto;  
+    .at-divider__content {
+      background-color: #fff;
+      font-size: 28px;
+    }
+  }
+}

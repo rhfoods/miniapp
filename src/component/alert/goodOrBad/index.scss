@@ -1,0 +1,26 @@
+.c-good-bad {
+  width: 100vw;
+  height: 100vh;
+  z-index: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0 80px;
+  .item {
+    width: 260px;
+    height: 240px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #333333;
+  }
+}

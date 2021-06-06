@@ -1,0 +1,45 @@
+.c-msg-card-system {
+  padding: 40px 30px;
+  border-bottom: 1px solid #f9f9f9;
+  font-size: 26px;
+  color: #101010;
+  position: relative;
+  .title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    .dot {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-right: 20px;
+      &.red {
+        background-color: #FF7062;
+      }
+      &.green {
+        background-color: #3BB430;
+      }
+      &.none {
+        display: none;
+      }
+    }
+  }
+  .time {
+    font-size: 24px;
+    color: #888888;
+    position: absolute;
+    top: 46px;
+    right: 40px;
+  }
+  .follow {
+    font-size: 26px;
+    color: #101010;
+    position: absolute;
+    top: 46px;
+    right: 40px;
+  }
+  .info {
+    line-height: 38px;
+  }
+}

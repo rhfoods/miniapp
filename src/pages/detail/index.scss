@@ -1,0 +1,56 @@
+.p-detail {
+  padding-bottom: 300px;
+  box-sizing: border-box;
+  background-color: #F9F8F8;
+  min-height: 100vh;
+  &.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .msg {
+    z-index: 1;
+  }
+  // 置顶文章
+  .top-note {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  // 点位卡片
+  .point-info {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    .card {
+      border-radius: 20px;
+    }
+  }
+  // 底部导航
+  .tabbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+  // 问答
+  .question {
+    margin-left: 20px;
+  }
+  // b站链接
+  .links {
+    width: 138px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    border-radius: 64px 0 0 64px;
+    box-shadow: -1px 1px 6px 0px rgba(121, 121, 121, 40);
+    color: #686868;
+    font-size: 24px;
+    position: fixed;
+    right: 0;
+    bottom: 160px;
+    background-color: rgba(255, 255, 255, .9)
+  }
+  .findCard {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+}

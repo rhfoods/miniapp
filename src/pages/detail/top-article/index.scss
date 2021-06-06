@@ -1,0 +1,99 @@
+@import '../../../static/css/color.scss';
+
+.c-top-article {
+  width: 710px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+  // 用户信息
+  .c-t-user {
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-bottom: 28px;
+    position: relative;
+    .btn-diy {
+      position: absolute;
+      right: 20px;
+      top: 40px;
+    }
+  }
+  // 文章标题
+  .c-t-title {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 16px;
+  }
+  // 点位tag
+  .tag-price {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  // 文章类容
+  .container {
+    padding-left: 20px;
+    font-size: 30px;
+    color: #101010;
+    line-height: 45px;
+    margin-bottom: 30px;
+    word-wrap:break-word;
+    padding-right: 20px;
+    .txt {
+      letter-spacing:4px;
+      margin-right: 24px;
+    }
+    .trigger {
+      color: $red;
+      width: 100%;
+      padding-right: 50px;
+      white-space: nowrap;
+    }
+  }
+  // 标签
+  .tags {
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+    .tag {
+      margin-right: 20px;
+    }
+  }
+  // 图片
+  .pics {
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+  // 视频
+  .video {
+    margin-bottom: 30px;
+  }  
+  // 
+  .note-footer {
+    font-size: 24px;
+    color: #999999;
+    padding: 10px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      display: flex;
+      .icon {
+        margin-right: 76px;
+      }
+    }
+    .right {
+      white-space:nowrap;
+    }
+  }
+  // 空白
+  .c-t-empty {
+    height: 546px;
+    .empty {
+      height: 100%;
+    }
+  }
+}

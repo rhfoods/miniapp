@@ -1,0 +1,26 @@
+@import '../../static/css/color.scss';
+
+.c-input-comment {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 20px;
+  .input-commnet {
+    height: 72px;
+    width: 80vw;
+    background-color: #eee;
+    border-radius: 72px;
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+  .input-commnet-holder {
+    color: #888888;
+  }
+}

@@ -1,0 +1,26 @@
+.c-city-catgray-card {
+  width: 710px;
+  height: 160px;
+  background-color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 139px;
+  padding-top: 43px;
+  .sort-name {
+    color: #101010;
+    font-size: 30px;
+    margin-bottom: 4px;
+  }
+  .count {
+    font-size: 24px;
+    color: #888;
+  }
+  .logo {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

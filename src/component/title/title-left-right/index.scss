@@ -1,0 +1,15 @@
+.c-t-l-r {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+  color: #757070;
+  .co {
+    font-size: 32px;
+    margin-right: 12px;   
+    font-weight: bold;
+    color: #333333;
+  }
+  .more {
+    margin-right: 12px;
+  }
+}

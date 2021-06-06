@@ -1,0 +1,40 @@
+@import '../../../static/css/color.scss';
+
+.c-point-icons {
+  font-size: 30px;
+  color: #101010;
+  .lab {
+    padding: 80px 30px 56px 30px;
+  }
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    .active {
+      background-color: #ffdcbd !important;
+    }
+    .icon {
+      font-size: 24px;
+      margin-bottom: 30px;
+      margin-left: 30px;
+      box-sizing: border-box;
+      width: 150px;
+      height: 150px;
+      background-color: #f9f8f8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      color: #888888;
+      .pic {
+        width: 90px;
+        height: 90px;
+      }
+      .txt {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

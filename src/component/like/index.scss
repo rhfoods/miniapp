@@ -1,0 +1,10 @@
+.c-thumbs-up{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 28px;
+  color: #888;
+  .num {
+    padding-right: 12px;
+  }
+}

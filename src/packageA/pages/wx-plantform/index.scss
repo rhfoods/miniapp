@@ -1,0 +1,71 @@
+@import '../../../static/css/color.scss';
+
+.p-wx-plantform {
+  background-color: #000;
+  min-height: 100vh;
+  color: #ffffff;
+  padding-top: 100px;
+  .copy {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    .copy-item {
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 30px;
+      .title {
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+      .info {
+        font-size: 20px;
+      }
+      .btn-copy {
+        position: absolute;
+        right: 30px;
+        bottom: 0;
+        height: 56px;
+        line-height: 56px;
+        width: 160px;
+        font-size: 26px;
+        text-align: center;
+        background: linear-gradient(0deg, #ff4430, #ff9473);
+        border-radius: 60px;
+      }
+    }
+  }
+  // 图文
+  .pic-item {
+    padding-left: 30px;
+    .title {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .pic {
+      margin-bottom: 50px;
+      width: 690px;
+      height: 384px;
+    }
+  }
+  // 修改默认样式
+  .at-tabs__header {
+    background-color: #000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+  .at-tabs__item {
+    color: #ffffff;
+  }
+  .at-tabs__underline{
+    background-color: #000000;
+  }
+  .at-tabs__item-underline {
+    background-color: $red;
+  }
+  .at-tabs__item--active .at-tabs__item-underline {
+    background-color: $red;
+    transform: scale(.5);
+    height: 4px;
+  }
+}

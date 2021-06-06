@@ -1,0 +1,20 @@
+.c-msg-tab-head {
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding-left: 30px;
+  font-size: 28px;
+  .item {
+    margin-right: 60px;
+    color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    &.cur {
+      color: #000;
+      border-bottom: 1px solid #000;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.p-success-err {
+  color: #888;
+  font-size: 28px;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  .up {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .cha {
+      background-color: #FF4E32;
+      width: 90px;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+    .info {
+      font-size: 32px;
+      color: #101010;
+      margin-top: 30px;
+      margin-bottom: 60px;
+    }
+    .subInfo {
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #101010;
+    }
+    .list-item {
+      padding: 0 30px;
+      margin-bottom: 30px;
+    }
+  }
+}

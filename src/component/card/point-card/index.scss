@@ -1,0 +1,53 @@
+.c-point-card {
+  background-color: #ffffff;
+  color: #101010;
+  font-size: 24px;
+  padding: 30px;
+  position: relative;
+  box-sizing: border-box;
+  .shop-name {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 10px;
+  }
+  .address {
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .icons {
+    display: flex;
+    .icon {
+      margin-right: 50px;
+    }
+  }
+  .right {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .navigation {
+      border: 1px solid #ececec;
+      border-radius: 80px;
+      width: 180px;
+      height: 68px;
+      box-sizing: border-box;
+      padding-left: 12px;
+      display: flex;
+      align-items: center;
+      .txt {
+        font-size: 28px;
+        margin-left: 24px;
+      }
+    }
+    .distance {
+      margin-top: 36px;
+      text-align: center;
+      color: #999999;
+    }
+  }
+}

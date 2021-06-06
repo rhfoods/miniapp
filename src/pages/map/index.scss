@@ -1,0 +1,26 @@
+.p-map {
+  .map-btns {
+    position: fixed;
+    top: 180px;
+    right: 36px;
+  }
+  .add-note {
+    position: fixed;
+    left: 50%;
+    bottom: 186px;
+    width: 120px;
+    height: 120px;
+    transform: translateX(-50%);
+    background: linear-gradient(0deg, #ff4430, #ff9473);
+    .icon-cover {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  // 解决: 彩色图标和单色图标差别
+  .share-poster{
+    .text {
+      margin-top: 10px;
+    }
+  }
+}

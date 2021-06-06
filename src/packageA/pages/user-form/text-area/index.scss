@@ -1,0 +1,25 @@
+.c-txt-area {
+  padding-top: 30px;
+  padding-left: 40px;
+  color: #757070;
+  font-size: 30px;
+  position: relative;
+  .label {
+    margin-bottom: 20px;
+  }
+  .textarea-con {
+    width: 620px;
+    border: 1px solid #f1f1f1;
+    min-height: 150px;
+    padding: 24px;
+    padding-bottom: 50px;
+    line-height: 50px;
+  }
+  .count {
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+    color: #757070;
+    font-size: 24px;
+  }
+}

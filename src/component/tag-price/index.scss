@@ -1,0 +1,16 @@
+.tag-and-price {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0px;
+  .pic {
+    width: 38px;
+    height: 38px;
+  }
+  .tag {
+    font-size: 26px;
+    color: #D5A40B;
+    margin-left: 10px;
+  }
+}

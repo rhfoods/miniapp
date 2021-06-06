@@ -1,0 +1,41 @@
+@import '../../../static/css/size.scss';
+
+.c-picker {
+  padding: 0 30px;
+  font-size: 30px;
+  color: #101010;
+  .label {
+    height: $form-item-h;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: #61696F;
+    font-size: 28px;
+  }
+  .down {
+    height: $form-item-h;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 1px solid #f0f0f0;
+    .left {
+      flex: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .placeholder{
+        color: #888888;
+      }
+      .text {
+        margin-left: 0;
+      }
+    }
+    .right {
+      flex: none;
+      padding-left: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import '../../static/css/color.scss';
+
+.c-user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  .left {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+    flex: none;
+    .avatar-cover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      // background-color: aqua;
+      // opacity: .3;
+    }
+    .pic {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    .gender {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &.red {
+        background-color: $red;
+      }
+      &.blue {
+        background-color: #779EFF;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    .name {
+      font-size: 30px;
+      color: #333333;
+    }
+    .other-info {
+      margin-top: 8px;
+      font-size: 24px;
+      color: #888888;
+    }
+  }
+}

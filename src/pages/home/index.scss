@@ -1,0 +1,25 @@
+@import '../../static/css/color.scss';
+
+.p-home {
+  // padding-top: 120px;
+  // 修改分享弹框,微信分享图标和文字的间距
+  .share-poster,.transfer-point{
+    .text {
+      margin-top: 10px;
+    }
+  }
+  .btn-diy{
+    width: 632px;
+    background-color: $red;
+  }
+  .transfer-fix {
+    position: fixed;
+    left: 60px;
+    bottom: 60px;
+  }
+  .map-btns {
+    position: fixed;
+    top: 180px;
+    right: 36px;
+  }
+}

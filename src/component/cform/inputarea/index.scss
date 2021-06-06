@@ -1,0 +1,14 @@
+.c-input-area {
+  padding-top: 40px;
+  font-size: 28px;
+  color: #61696F;
+  .label {
+    padding-bottom: 20px;
+  }
+  .areainput {
+    border: 1px solid #f0f0f0;
+    .at-textarea__textarea {
+      font-size: 28px;
+    }
+  }
+}

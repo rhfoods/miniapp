@@ -1,0 +1,29 @@
+.c-input-link {
+  width: 690px;
+  height: 60px;
+  border-radius: 60px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 14px;
+  font-size: 24px;
+  .input {
+    flex: auto;
+    margin: 0 16px;
+  }
+  .question {
+    flex: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,15 @@
+.p-comment {
+  width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-bottom: 200px;
+  padding-top: 40px;
+  .left { //修改头像大小
+    width: 72px;
+    height: 72px;
+  }
+  .card {
+    margin-bottom: 40px;
+  }
+}

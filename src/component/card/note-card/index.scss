@@ -1,0 +1,63 @@
+.c-note-card {
+  width: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  .card-pic {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    display: flex;
+  }
+  .play-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 52px;
+    height: 52px;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .triangle {
+      width: 0px;
+      height: 0px;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-left: 20px solid #ffffff;
+      border-right: 20px solid transparent;
+      transform: translateX(15px);
+    }
+  }
+  .container {
+    padding: 10px 20px 20px 20px;
+    .title {
+      font-size: 26px;
+      font-weight: bold;
+      line-height: 36px;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      padding-top: 20px;
+      .avatar {
+        .left {
+          width: 40px;
+          height: 40px;
+          box-sizing: border-box;
+          margin-right: 10px;
+        }
+        .iconfont {
+          font-size: 24px !important;
+        }
+        .name {
+          font-size: 24px;
+          color: #686868;
+        }
+      }
+    }
+  }
+}

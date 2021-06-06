@@ -1,0 +1,20 @@
+.color-icon {
+    display: inline-block;
+    transform: translateY(6px);
+    position: relative;
+}
+.mono-icon {
+    display: inline-block;
+    position: relative;
+}
+.icon-btn {
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // background-color: red;
+    // opacity: .3;
+}

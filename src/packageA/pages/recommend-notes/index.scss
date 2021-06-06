@@ -1,0 +1,35 @@
+.p-recommend-note {
+  background-color: #f9f8f8;
+  min-height: 100vh;
+  padding-top: 210px;
+  padding-bottom: 300px;
+  box-sizing: border-box;
+  .point-card {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+  }
+  .note-card {
+    margin-bottom: 10px;
+    // animation: show .3s ease;
+  }
+  .tabbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  .empty {
+    height: 50vh;
+  }
+  @keyframes show {
+    0%{
+      opacity: 0.1;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

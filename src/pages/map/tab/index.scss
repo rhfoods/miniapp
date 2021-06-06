@@ -1,0 +1,31 @@
+.c-common-tab {
+  position: fixed;
+  bottom: 50px;
+  left: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 680px;
+  .big {
+    width: 120px;
+    height: 120px;
+    .icon-cover {
+      width: 120px;
+      height: 120px;
+    }
+    // background: linear-gradient(0deg, #ff4430, #ff9473);
+  }
+}
+.c-tabcommon-item {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgba(83, 90, 96, 60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  // .at-badge__num {
+  //   transform: translate(18px, 7px);
+  // }
+}

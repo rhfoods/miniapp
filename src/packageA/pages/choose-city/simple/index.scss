@@ -1,0 +1,30 @@
+.c-choose-city-simple {
+  .title {
+    height: 80px;
+    line-height: 80px;
+    color: #888;
+    font-size: 28px;
+    padding-left: 20px;
+  }
+  .cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-color: #fff;
+    .city {
+      color: #101010;
+      font-size: 32px;
+      width: 249px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #f9f9f9;
+      border-bottom: 1px solid #f9f9f9;
+      &:nth-child(3n){
+        border-right: 0;
+      }
+    }
+  }
+}

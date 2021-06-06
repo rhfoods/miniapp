@@ -1,0 +1,14 @@
+.c-msg {
+  height: 72px;
+  background-color: #FFF1D6;
+  color: #DD8322;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: sticky;
+  top: 0;
+  .text {
+    font-size: 24px;
+  }
+}

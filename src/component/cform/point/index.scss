@@ -1,0 +1,17 @@
+.c-choose-p {
+  min-height: 88px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  color: #535a60;
+  padding: 10px 0;
+  box-sizing: border-box;
+  .c-choose-p-left {
+    padding-right: 30px;
+    .value {
+      color: #101010;
+    }
+  }
+}

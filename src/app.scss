@@ -1,0 +1,76 @@
+@import './static/css/btn.scss';
+@import './static/css/color.scss';
+@import './static/css/icons.scss';
+@import '~taro-ui/dist/style/components/toast.scss';
+@import '~taro-ui/dist/style/components/action-sheet.scss';
+@import '~taro-ui/dist/style/components/badge.scss';
+@import '~taro-ui/dist/style/components/modal.scss';
+@import '~taro-ui/dist/style/components/tag.scss';
+@import '~taro-ui/dist/style/components/flex.scss';
+@import '~taro-ui/dist/style/components/progress.scss';
+@import '~taro-ui/dist/style/components/icon.scss';
+@import '~taro-ui/dist/style/components/curtain.scss';
+@import '~taro-ui/dist/style/components/tabs.scss';
+@import "~taro-ui/dist/style/components/divider.scss";
+@import "~taro-ui/dist/style/components/textarea.scss";
+@import "~taro-ui/dist/style/components/indexes.scss";
+@import "~taro-ui/dist/style/components/list.scss";
+@import './component/alert/input/index.scss';
+@import './component/alert/toast/index.scss';
+@import './component/alert/goodOrBad/index.scss';
+@import './component/alert/sheet/index.scss';
+@import './component/alert/alert-icon/index.scss';
+@import './component/icon/index.scss';
+@import './component/loading/index.scss';
+@import './component/form/point-info/index.scss';
+@import './component/card/point-card/index.scss';
+@import './component/card/user-card/index.scss';
+@import './component/title/title-left-right/index.scss';
+@import './component/icon-text/index.scss';
+@import './component/text-long/index.scss';
+@import './component/tag-price/index.scss';
+@import './component/avatar/index.scss';
+@import './component/user-info-btn/index.scss';
+@import './component/empty/index.scss';
+@import './component/video/index.scss';
+@import './component/alert/alert-poster/index.scss';
+@import './component/msg/index.scss';
+@import './component/progress/index.scss';
+@import './component/icon/iconfont/iconfont.css';
+@import './component/icon/iconfont/iconfont-weapp-icon.css';
+@import './component/alert/share/index.scss';
+@import './component/alert/add-service/index.scss';
+@import './component/alert/comment-input/index.scss';
+@import './component/card/comment-card/index.scss';
+@import './component/card/note-card/index.scss';
+@import './component/card/msg-card/index.scss';
+@import './component/icon-btn/index.scss';
+@import './component/poster/index.scss';
+@import './component/forward-pic/index.scss';
+@import './component/explain/index.scss';
+@import './component/explain/bubble/index.scss';
+@import './component/like/index.scss';
+@import './component/text-ellipsis/index.scss';
+@import './pages/map/tab/index.scss';
+
+.none {
+  display: none;
+}
+.fix-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

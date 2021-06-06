@@ -1,0 +1,22 @@
+.c-alert-input {
+  font-size: 32px;
+  text-align: center;
+  .at-modal__container{
+    width: 640px;
+  }
+  .at-modal__content {
+    padding: 40px;
+  }
+  .input {
+    width: 560px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 80px;
+    background-color: #f9f9f9;
+    margin-top: 32px;
+  }
+  .btn-diy {
+    margin: 78px auto;
+    margin-bottom: 0;
+  }
+}

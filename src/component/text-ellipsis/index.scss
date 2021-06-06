@@ -1,0 +1,20 @@
+.c-text-ellipsis {
+  display: inline;
+  line-height: 1.3rem;
+  word-wrap: break-word;
+  .trigger-show {
+    padding-left: 24px;
+    display: inline-block;
+  }
+  .orange {
+    color: #FF9144;
+  }
+  .like {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+.c-text-ellipsis-hover {
+  opacity: .5;
+}

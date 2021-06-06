@@ -1,0 +1,20 @@
+<map 
+  id="{{id}}" 
+  style="{{style}}"
+  markers="{{markers}}"
+  latitude="{{latitude}}"
+  longitude="{{longitude}}"
+  scale="{{scale}}"
+  layer-style="{{layerStyle}}"
+  show-location="{{showLocation}}"
+  subkey="{{subkey}}"
+  min-scale="{{8}}"
+  max-scale="{{16}}"
+  bindmarkertap="markertap"
+  bindcallouttap="callouttap"
+  bindregionchange="regionchange"
+  bindupdated="updated"
+>
+  <view>111{{id}}</view>
+  <slot ></slot>
+</map>
